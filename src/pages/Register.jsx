@@ -31,7 +31,7 @@ function Register() {
   // NOTE: no need for useEffect here as we can catch the
   // AsyncThunkAction rejection in our onSubmit or redirect them on the
   // resolution
-  // Side effects shoulld go in event handlers where possible
+  // Side effects should go in event handlers where possible
   // source: - https://beta.reactjs.org/learn/keeping-components-pure#where-you-can-cause-side-effects
 
   const onSubmit = (e) => {

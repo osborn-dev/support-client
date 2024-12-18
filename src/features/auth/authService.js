@@ -1,6 +1,6 @@
 import axios from 'axios'; // Import Axios for making API requests
 
-const API_URL = '/api/users/'; // Define the base URL for user API endpoints
+const API_URL = 'https://support-server.vercel.app/'; // Define the base URL for user API endpoints
 
 // Register user
 const register = async (userData) => {
